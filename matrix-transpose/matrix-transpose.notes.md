@@ -23,7 +23,7 @@
 
 - **How it works.** Reorders array indices explicitly using string subscripts.
 - **2D usage.** Changing `'ij'` to `'ji'` swaps row and column positions.
-- **Code.** `transposed = np.einsum('ij-&gt;ji', matrix)`
+- **Code.** `transposed = np.einsum('ij->ji', matrix)`
 
 ---
 **4.** `zip(*matrix)` **(Pure Python / Interview Approach)**
